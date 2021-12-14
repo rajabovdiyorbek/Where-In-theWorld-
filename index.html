@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where in the world</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="header__title">Where in the world?</h1>
+        <div class="button__dark-mode">
+          <img src="images/Path.png" alt="path" />
+          <h3 class="dark__mode">Dark Mode</h3>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__form">
+          <form>
+            <div class="form__input">
+              
+                <img class="input__img" src="images/search.png" alt="search" />
+             
+              <input
+                class="input"
+                type="text"
+                placeholder="Search for a country…"
+              />
+            </div>
+          </form>
+
+          <div class="main__select">
+            <select class="select">
+              <option class="select__value" value="0">Fliter by Countries</option>
+            </select>
+          </div>
+        </div>
+        <div class="main__cards"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
